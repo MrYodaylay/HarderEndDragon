@@ -1,9 +1,9 @@
-package dev.mryodaylay.blighted.mixin.dragon;
+package dev.mryodaylay.blighted.entity.dragon;
 
 import net.minecraft.entity.LivingEntity;
 
 public interface IEnderDragonEntity {
 
-    public void setFireballTarget(LivingEntity target, int fireballCount);
+    void blighted$setFireballTarget(LivingEntity target, int fireballCount);
 
 }

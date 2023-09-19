@@ -4,6 +4,12 @@
   "package": "dev.mryodaylay.blighted.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "dragon.MixinEnderDragonEntity",
+    "dragon.MixinHoldingPatternPhase",
+    "dragon.MixinStrafePlayerPhase",
+    "item.MixinItems",
+    "projectile.MixinDragonFireballEntity",
+    "recipe.MixinBrewingRecipeRegistry"
   ],
   "client": [
   ],

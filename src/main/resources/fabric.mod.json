@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
   "id": "blighted",
-  "version": "${version}",
-
+  "version": "0.0.0",
   "name": "blighted",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/Luke/blighted"
+  },
   "license": "All-Rights-Reserved",
-  "icon": "assets/blighted/icon.png",
-
   "environment": "server",
-  "entrypoints": {},
-
-      "mixins": [
-        "blighted.mixins.json"
-      ],
-
+  "entrypoints": {
+    "main": [
+      "dev.mryodaylay.blighted.Blighted"
+    ]
+  },
+  "mixins": [
+    "blighted.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }
